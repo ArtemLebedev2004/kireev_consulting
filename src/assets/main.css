@@ -3,6 +3,27 @@
 @font-face {
     font-family: "Literata";
     src: local("Literata"),
-        url(./fonts/Literata-VariableFont_opsz,wght.ttf);
+         url(./fonts/Literata-VariableFont_opsz,wght.ttf);
 }
-  
+
+@theme {
+  --color-purple: #8C2281;
+  --color-liblack: #222222;
+  --color-ligray: #E6E6E6;
+}
+
+html {
+  font-family: "Literata";
+}
+
+@theme {
+  --animate-opacity: opacity 0.5s ease;
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

@@ -3,19 +3,19 @@
     <navBar />
   </header>
 
-  <!-- <section id="main">
+  <section id="main">
     <mainSection />
-  </section>
-
-  <section id="projects">
-    <projectsSection />
   </section>
 
   <section id="services">
     <servicesSection />
   </section>
 
-  <section id="about">
+  <section id="feedback">
+    <feedbackSection />
+  </section>
+
+  <!--<section id="about">
     <aboutSection @id-active="idActiveEmit" />
   </section> -->
 
@@ -26,9 +26,10 @@
 
 <script setup>
 
-// import mainSection from '../components/sections/HomeViewSections/mainSection.vue';
+import feedbackSection from '@/components/sections/HomeViewSections/feedbackSection.vue';
+import mainSection from '../components/sections/HomeViewSections/mainSection.vue';
 // import projectsSection from '../components/sections/HomeViewSections/projectsSection.vue';
-// import servicesSection from '../components/sections/HomeViewSections/servicesSection.vue';
+import servicesSection from '../components/sections/HomeViewSections/servicesSection.vue';
 // import aboutSection from '../components/sections/HomeViewSections/aboutSection.vue';
 import navBar from '../components/structure/navBar.vue';
 // import footerContacts from '@/components/structure/footerContacts.vue';

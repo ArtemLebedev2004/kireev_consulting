@@ -1,16 +1,16 @@
 <template>
   <nav class="
     fixed z-20
-    left-0 right-0 top-0  
-    text-white 
-  " :class="changeBgNav ? 'bg-white/70 backdrop-blur-sm' : ''">
-    <div class="p-3">
+    left-0 right-0 top-0
+    text-white
+  " >
+    <div class="px-3 py-6">
       <router-link to="#"><img src="../../assets/icons/logo.png" alt="" class=""></router-link>
     </div>
   </nav>
 
 </template>
-
+<!--
 <script setup>
 import router from '@/router';
 import { nextTick, onMounted, ref } from 'vue';
@@ -51,13 +51,4 @@ function observeMainNav() {
 
   observerBgNav.observe(observe_h1);
 }
-</script>
-
-<style>
-.v-leave-from {
-  opacity: 1;
-}
-.v-leave-to {
-  opacity: 0;
-}
-</style>
+</script> -->
