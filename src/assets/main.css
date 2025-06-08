@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Literata";
+    src: local("Literata"),
+        url(./fonts/Literata-VariableFont_opsz,wght.ttf);
+}
+  
