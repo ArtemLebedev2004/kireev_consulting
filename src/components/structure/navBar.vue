@@ -5,7 +5,7 @@
     text-white
   " >
     <div class="px-3 py-6">
-      <router-link to="#"><img src="../../assets/icons/logo.png" alt="" class=""></router-link>
+      <router-link to="#"><img src="../../assets/icons/logo.png" alt="" class="min-[420px]:w-[80%] min-[420px]:mx-auto"></router-link>
     </div>
   </nav>
 

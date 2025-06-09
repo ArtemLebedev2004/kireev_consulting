@@ -1,16 +1,18 @@
 <template>
-  <div class="bg-liblack xl:w-[1280px] xl:m-auto mt-20 xl:mt-20 xl:m-auto text-white py-[35px] md:pb-4 xl:pb-10">
+  <div class="bg-liblack xl:w-[1280px] mt-20 xl:mt-20 xl:m-auto text-white py-[35px] md:pb-4 xl:pb-10">
     <div>
-      <div class="flex justify-between items-center">
-        <hr class="h-[2px] min-w-[40px] bg-white">
+      <div class="flex gap-5 items-center">
+        <hr class="h-[2px]  bg-white flex-1">
 
-        <img src="@/assets/icons/vk.svg" alt="">
-        
-        <div class="text-[20px]">
-          email@example.ru
+        <div class="flex gap-5 shrink-0">
+          <img src="@/assets/icons/vk.svg" alt="">
+
+          <div class="text-[20px] min-[430px]:text-[25px]">
+            email@example.ru
+          </div>
         </div>
 
-        <hr class="h-[2px] min-w-[40px] bg-white">
+        <hr class="h-[2px]  bg-white flex-1">
       </div>
 
       <div class="text-center mt-[35px] flex flex-col gap-[10px]">
